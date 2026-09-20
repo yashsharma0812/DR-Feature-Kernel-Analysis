@@ -1,0 +1,4 @@
+kernel,sv_dr0,sv_dr1,support_vectors,support_vector_percent
+Linear,315,314,629,68.3695652173913
+Polynomial,320,321,641,69.67391304347827
+RBF,351,370,721,78.3695652173913

@@ -1,0 +1,112 @@
+Dataset shape: (1151, 19)
+Observations: 1151
+Features: 18
+Columns: ['quality', 'pre_screening', 'ma1', 'ma2', 'ma3', 'ma4', 'ma5', 'ma6', 'exudate1', 'exudate2', 'exudate3', 'exudate5', 'exudate6', 'exudate7', 'exudate8', 'macula_opticdisc_distance', 'opticdisc_diameter', 'am_fm_classification', 'class']
+
+First five rows:
+   quality  pre_screening  ma1  ma2  ma3  ma4  ma5  ma6   exudate1   exudate2   exudate3  exudate5  exudate6  exudate7  exudate8  macula_opticdisc_distance  opticdisc_diameter  am_fm_classification  class
+0        1              1   22   22   22   19   18   14  49.895756  17.775994   5.270920  0.018632  0.006864  0.003923  0.003923                   0.486903            0.100025                     1      0
+1        1              1   24   24   22   18   16   13  57.709936  23.799994   3.325423  0.003903  0.003903  0.003903  0.003903                   0.520908            0.144414                     0      0
+2        1              1   62   60   59   54   47   33  55.831441  27.993933  12.687485  1.393889  0.373252  0.041817  0.007744                   0.530904            0.128548                     0      1
+3        1              1   55   53   53   50   43   31  40.467228  18.445954   9.118901  0.840261  0.272434  0.007653  0.001531                   0.483284            0.114790                     0      0
+4        1              1   44   44   44   41   39   27  18.026254   8.570709   0.410381  0.000000  0.000000  0.000000  0.000000                   0.475935            0.123572                     0      1
+
+Last five rows:
+      quality  pre_screening  ma1  ma2  ma3  ma4  ma5  ma6   exudate1   exudate2  exudate3  exudate5  exudate6  exudate7  exudate8  macula_opticdisc_distance  opticdisc_diameter  am_fm_classification  class
+1146        1              1   34   34   34   33   31   24   6.071765   0.937472  0.031145  0.000000  0.000000  0.000000  0.000000                   0.537470            0.116795                     0      0
+1147        1              1   49   49   49   49   45   37  63.197145  27.377668  8.067688  0.001552  0.000000  0.000000  0.000000                   0.516733            0.124190                     0      0
+1148        1              0   49   48   48   45   43   33  30.461898  13.966980  1.763305  0.011221  0.000000  0.000000  0.000000                   0.560632            0.129843                     0      0
+1149        1              1   39   36   29   23   13    7  40.525739  12.604947  4.740919  0.563518  0.326860  0.239568  0.174584                   0.485972            0.106690                     1      1
+1150        1              1    7    7    7    7    7    5  69.423565   7.031843  1.750548  0.021180  0.008472  0.000000  0.000000                   0.556192            0.088957                     0      0
+
+Data types:
+quality                        int64
+pre_screening                  int64
+ma1                            int64
+ma2                            int64
+ma3                            int64
+ma4                            int64
+ma5                            int64
+ma6                            int64
+exudate1                     float64
+exudate2                     float64
+exudate3                     float64
+exudate5                     float64
+exudate6                     float64
+exudate7                     float64
+exudate8                     float64
+macula_opticdisc_distance    float64
+opticdisc_diameter           float64
+am_fm_classification           int64
+class                          int64
+
+Unique values:
+quality                         2
+pre_screening                   2
+ma1                           110
+ma2                           104
+ma3                            99
+ma4                            91
+ma5                            84
+ma6                            69
+exudate1                     1141
+exudate2                     1141
+exudate3                     1130
+exudate5                      795
+exudate6                      579
+exudate7                      415
+exudate8                      351
+macula_opticdisc_distance    1132
+opticdisc_diameter           1110
+am_fm_classification            2
+class                           2
+
+Missing values:
+quality                      0
+pre_screening                0
+ma1                          0
+ma2                          0
+ma3                          0
+ma4                          0
+ma5                          0
+ma6                          0
+exudate1                     0
+exudate2                     0
+exudate3                     0
+exudate5                     0
+exudate6                     0
+exudate7                     0
+exudate8                     0
+macula_opticdisc_distance    0
+opticdisc_diameter           0
+am_fm_classification         0
+class                        0
+
+Duplicate rows: 5
+
+Target distribution:
+class
+0    540
+1    611
+
+Memory usage (bytes):
+Index                         132
+quality                      9208
+pre_screening                9208
+ma1                          9208
+ma2                          9208
+ma3                          9208
+ma4                          9208
+ma5                          9208
+ma6                          9208
+exudate1                     9208
+exudate2                     9208
+exudate3                     9208
+exudate5                     9208
+exudate6                     9208
+exudate7                     9208
+exudate8                     9208
+macula_opticdisc_distance    9208
+opticdisc_diameter           9208
+am_fm_classification         9208
+class                        9208

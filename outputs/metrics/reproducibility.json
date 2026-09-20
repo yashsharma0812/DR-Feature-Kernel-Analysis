@@ -1,0 +1,15 @@
+{
+  "random_state": 42,
+  "test_size": "approximately 0.2 (one of five folds)",
+  "stratified": true,
+  "duplicate_feature_grouping": true,
+  "versions": {
+    "python": "3.13.7",
+    "pandas": "2.3.3",
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2"
+  }
+}

@@ -1,0 +1,64 @@
+DATASET OVERVIEW
+1151 observations, 18 predictors. Class 0=540; class 1=611. No rows or values were altered.
+
+EDA FINDINGS
+Missing values=0; duplicates=5; IQR flags were reported but retained. Class imbalance ratio=1.131.
+
+STATISTICAL FINDINGS
+Strongest global |correlation|>=0.70 pairs: ma1-ma2 (0.996, pearson); ma2-ma3 (0.995, pearson); ma3-ma4 (0.992, pearson); ma4-ma5 (0.988, pearson); ma1-ma3 (0.986, pearson). Correlation is evidence of association, not a complete dependence test.
+
+UNIT 1: FEATURE INDEPENDENCE
+The global and class-conditional diagnostics show that the predictors are not mutually independent. The scientifically relevant Naive Bayes check is conditional on the class, not merely global correlation.
+
+UNIT 1: CONDITIONAL DEPENDENCE
+Top DR=0 pairs: ma1-ma2 (1.000, pearson); ma2-ma3 (0.999, pearson); ma1-ma3 (0.999, pearson); ma3-ma4 (0.998, pearson); ma2-ma4 (0.996, pearson). Top DR=1 pairs: ma1-ma2 (0.995, pearson); ma2-ma3 (0.993, pearson); ma3-ma4 (0.989, pearson); ma4-ma5 (0.984, pearson); ma1-ma3 (0.983, pearson). Groups are training-only tertiles of a composite of absolute Pearson, absolute Spearman, and normalized kNN pairwise MI evidence.
+
+UNIT 1: NAIVE BAYES RESULTS
+ALL_FEATURES: accuracy=0.632, precision=0.896, recall/sensitivity=0.350, specificity=0.954, F1=0.503, ROC-AUC=0.733
+LOW_DEPENDENCE: accuracy=0.532, precision=0.532, recall/sensitivity=1.000, specificity=0.000, F1=0.695, ROC-AUC=0.669
+MEDIUM_DEPENDENCE: accuracy=0.584, precision=0.909, recall/sensitivity=0.244, specificity=0.972, F1=0.385, ROC-AUC=0.681
+HIGH_DEPENDENCE: accuracy=0.597, precision=0.663, recall/sensitivity=0.496, specificity=0.713, F1=0.567, ROC-AUC=0.658
+
+UNIT 1: INTERPRETATION
+Differences across equally sized dependence tertiles are observational: feature identity and predictive information also differ. They do not by themselves establish a causal effect of dependence.
+
+UNIT 2: FEATURE-SPACE GEOMETRY
+PCA is used only as a two-dimensional visualization. Overlap in this projection is not proof of non-separability in the full feature space.
+
+UNIT 2: EXPLICIT FEATURE MAPPING
+Maximum absolute error between phi(x)^T phi(z) and (x^T z)^2: 7.105e-15.
+
+UNIT 2: KERNEL TRICK DEMONSTRATION
+The manually precomputed RBF SVM agreed with the direct RBF SVM on 100.0% of test predictions (max decision difference 1.061e-13).
+
+UNIT 2: GRAM MATRIX ANALYSIS
+Linear: symmetry error=0.00e+00, min eigenvalue=-5.10e-13; Polynomial: symmetry error=0.00e+00, min eigenvalue=-4.46e-13; RBF: symmetry error=0.00e+00, min eigenvalue=-5.41e-17. Tiny negative eigenvalues may reflect floating-point roundoff.
+
+UNIT 2: KERNEL SIMILARITY
+Linear: same-minus-different=1.007; Polynomial: same-minus-different=0.330; RBF: same-minus-different=0.009. This is exploratory alignment evidence, not proof.
+
+UNIT 2: LINEAR VS POLYNOMIAL VS RBF
+Linear: accuracy=0.745, precision=0.820, recall/sensitivity=0.667, specificity=0.833, F1=0.735, ROC-AUC=0.847; SV=629 (68.4%)
+Polynomial: accuracy=0.784, precision=0.884, recall/sensitivity=0.683, specificity=0.898, F1=0.771, ROC-AUC=0.835; SV=641 (69.7%)
+RBF: accuracy=0.723, precision=0.792, recall/sensitivity=0.650, specificity=0.806, F1=0.714, ROC-AUC=0.819; SV=721 (78.4%)
+
+UNIT 2: C ANALYSIS
+Best tested test F1 (descriptive, not selected) at C=10; selection must use training CV.
+
+UNIT 2: GAMMA ANALYSIS
+Best tested test F1 (descriptive, not selected) at gamma=1; train/test gaps are tabulated.
+
+UNIT 2: POLYNOMIAL DEGREE ANALYSIS
+Training-only CV selected degree=3 by mean F1=0.695; the test sweep remains descriptive.
+
+UNIT 2: SUPPORT VECTOR ANALYSIS
+Support-vector counts and class composition vary by kernel; a lower count is not assumed to imply a better model.
+
+UNIT 2: COMPUTATIONAL ANALYSIS
+Training-only CV selected C=100, gamma=0.01 by mean F1=0.730 (mean ROC-AUC=0.822). Baseline timing and prediction metrics are reported together.
+
+LIMITATIONS
+Single modest-sized extracted-feature dataset; one fixed holdout split; dependence estimators have sampling uncertainty; univariate dependence grouping confounds dependence with feature identity/information; no external or clinical validation; timings are machine- and run-specific.
+
+FINAL OBSERVATIONS
+These experiments classify the dataset label and demonstrate statistical dependence and kernel geometry. They do not constitute a medical diagnostic system or clinical validation.

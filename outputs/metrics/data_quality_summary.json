@@ -1,0 +1,23 @@
+{
+  "invalid_value_counts": {
+    "quality": 0,
+    "pre_screening": 0,
+    "am_fm_classification": 0,
+    "ma1": 0,
+    "ma2": 0,
+    "ma3": 0,
+    "ma4": 0,
+    "ma5": 0,
+    "ma6": 0,
+    "exudate1": 0,
+    "exudate2": 0,
+    "exudate3": 0,
+    "exudate5": 0,
+    "exudate6": 0,
+    "exudate7": 0,
+    "exudate8": 0,
+    "macula_opticdisc_distance": 0,
+    "opticdisc_diameter": 0
+  },
+  "class_imbalance_ratio": 1.1314814814814815
+}

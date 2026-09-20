@@ -1,0 +1,2 @@
+accuracy,precision,recall_sensitivity,specificity,f1,roc_auc,tn,fp,fn,tp,gamma,prediction_agreement,max_abs_decision_difference,support_vectors_precomputed,support_vectors_direct,training_time_seconds,inference_time_seconds
+0.7229437229437229,0.7920792079207921,0.6504065040650406,0.8055555555555556,0.7142857142857143,0.8189551339957845,87,21,43,80,0.05555555555555555,1.0,1.0613732115416497e-13,721,721,0.002847540999937337,0.0012138329984736629

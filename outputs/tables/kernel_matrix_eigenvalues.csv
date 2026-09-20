@@ -1,0 +1,4 @@
+kernel,symmetry_max_abs_error,minimum_eigenvalue,negative_eigenvalues_below_minus_1e-8,maximum_eigenvalue
+Linear,0.0,-5.099589201581233e-13,0,2031.3885276125338
+Polynomial,0.0,-4.4602123237221243e-13,0,3336.3208760929665
+RBF,0.0,-5.411701790424065e-17,0,72.85501173090833
