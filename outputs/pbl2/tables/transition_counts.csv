@@ -1,0 +1,5 @@
+severity_state,No/minimal/mild DR,Moderate NPDR,Moderately severe/severe NPDR,PDR
+No/minimal/mild DR,500,202,44,10
+Moderate NPDR,199,417,197,17
+Moderately severe/severe NPDR,46,198,389,52
+PDR,3,22,43,45

@@ -1,0 +1,10 @@
+interval_group,change,count
+<300 days,Progression,49
+<300 days,Regression,54
+<300 days,Stable,108
+300–430 days,Progression,410
+300–430 days,Regression,402
+300–430 days,Stable,1044
+>430 days,Progression,63
+>430 days,Regression,55
+>430 days,Stable,199

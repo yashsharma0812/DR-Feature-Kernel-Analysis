@@ -125,3 +125,16 @@ python main.py
 ```
 
 Artifacts are written under `outputs/figures`, `outputs/tables`, `outputs/metrics`, and `outputs/summaries`. The exploratory notebook is in `notebooks/exploratory_analysis.ipynb`.
+
+## PBL-2: Protocol AA Clustering and Longitudinal Analysis
+
+PBL-2 is a separate continuation using the DRCR Retina Network Protocol AA cohort. It compares K-Means with agglomerative clustering and investigates empirical DR severity-state transitions, the first-order Markov approximation, multi-step state distributions, and exploratory cluster–transition associations.
+
+Run the PBL-2 pipeline from the project root:
+
+```bash
+python pbl2_main.py
+python -m unittest tests/test_pbl2.py
+```
+
+PBL-2 artifacts are isolated under `outputs/pbl2/`, `data/processed/`, and `reports/`. Its standalone executed notebook is `notebooks/PBL2_Protocol_AA_Analysis.ipynb`; the original Unit 1/Unit 2 notebook remains unchanged.

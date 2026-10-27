@@ -1,0 +1,49 @@
+interval_group,severity_state,next_state,count,origin_denominator,probability
+<300 days,Moderate NPDR,Moderate NPDR,28,66,0.42424242424242425
+<300 days,Moderate NPDR,Moderately severe/severe NPDR,19,66,0.2878787878787879
+<300 days,Moderate NPDR,No/minimal/mild DR,18,66,0.2727272727272727
+<300 days,Moderate NPDR,PDR,1,66,0.015151515151515152
+<300 days,Moderately severe/severe NPDR,Moderate NPDR,22,66,0.3333333333333333
+<300 days,Moderately severe/severe NPDR,Moderately severe/severe NPDR,35,66,0.5303030303030303
+<300 days,Moderately severe/severe NPDR,No/minimal/mild DR,5,66,0.07575757575757576
+<300 days,Moderately severe/severe NPDR,PDR,4,66,0.06060606060606061
+<300 days,No/minimal/mild DR,Moderate NPDR,22,66,0.3333333333333333
+<300 days,No/minimal/mild DR,Moderately severe/severe NPDR,3,66,0.045454545454545456
+<300 days,No/minimal/mild DR,No/minimal/mild DR,41,66,0.6212121212121212
+<300 days,No/minimal/mild DR,PDR,0,66,0.0
+<300 days,PDR,Moderate NPDR,5,13,0.38461538461538464
+<300 days,PDR,Moderately severe/severe NPDR,4,13,0.3076923076923077
+<300 days,PDR,No/minimal/mild DR,0,13,0.0
+<300 days,PDR,PDR,4,13,0.3076923076923077
+300–430 days,Moderate NPDR,Moderate NPDR,344,669,0.5142002989536621
+300–430 days,Moderate NPDR,Moderately severe/severe NPDR,150,669,0.2242152466367713
+300–430 days,Moderate NPDR,No/minimal/mild DR,160,669,0.23916292974588937
+300–430 days,Moderate NPDR,PDR,15,669,0.02242152466367713
+300–430 days,Moderately severe/severe NPDR,Moderate NPDR,156,528,0.29545454545454547
+300–430 days,Moderately severe/severe NPDR,Moderately severe/severe NPDR,296,528,0.5606060606060606
+300–430 days,Moderately severe/severe NPDR,No/minimal/mild DR,36,528,0.06818181818181818
+300–430 days,Moderately severe/severe NPDR,PDR,40,528,0.07575757575757576
+300–430 days,No/minimal/mild DR,Moderate NPDR,163,578,0.2820069204152249
+300–430 days,No/minimal/mild DR,Moderately severe/severe NPDR,33,578,0.05709342560553633
+300–430 days,No/minimal/mild DR,No/minimal/mild DR,373,578,0.6453287197231834
+300–430 days,No/minimal/mild DR,PDR,9,578,0.015570934256055362
+300–430 days,PDR,Moderate NPDR,16,81,0.19753086419753085
+300–430 days,PDR,Moderately severe/severe NPDR,31,81,0.38271604938271603
+300–430 days,PDR,No/minimal/mild DR,3,81,0.037037037037037035
+300–430 days,PDR,PDR,31,81,0.38271604938271603
+>430 days,Moderate NPDR,Moderate NPDR,45,95,0.47368421052631576
+>430 days,Moderate NPDR,Moderately severe/severe NPDR,28,95,0.29473684210526313
+>430 days,Moderate NPDR,No/minimal/mild DR,21,95,0.22105263157894736
+>430 days,Moderate NPDR,PDR,1,95,0.010526315789473684
+>430 days,Moderately severe/severe NPDR,Moderate NPDR,20,91,0.21978021978021978
+>430 days,Moderately severe/severe NPDR,Moderately severe/severe NPDR,58,91,0.6373626373626373
+>430 days,Moderately severe/severe NPDR,No/minimal/mild DR,5,91,0.054945054945054944
+>430 days,Moderately severe/severe NPDR,PDR,8,91,0.08791208791208792
+>430 days,No/minimal/mild DR,Moderate NPDR,17,112,0.15178571428571427
+>430 days,No/minimal/mild DR,Moderately severe/severe NPDR,8,112,0.07142857142857142
+>430 days,No/minimal/mild DR,No/minimal/mild DR,86,112,0.7678571428571429
+>430 days,No/minimal/mild DR,PDR,1,112,0.008928571428571428
+>430 days,PDR,Moderate NPDR,1,19,0.05263157894736842
+>430 days,PDR,Moderately severe/severe NPDR,8,19,0.42105263157894735
+>430 days,PDR,No/minimal/mild DR,0,19,0.0
+>430 days,PDR,PDR,10,19,0.5263157894736842

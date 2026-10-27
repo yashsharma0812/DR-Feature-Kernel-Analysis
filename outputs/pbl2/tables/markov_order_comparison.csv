@@ -1,0 +1,3 @@
+model,test_transitions,accuracy,log_loss,second_order_context_coverage,train_patients,test_patients
+First-order,439,0.5535307517084282,1.0186388528868635,,291,97
+Second-order with first-order backoff,439,0.5899772209567198,0.9981917505951637,1.0,291,97

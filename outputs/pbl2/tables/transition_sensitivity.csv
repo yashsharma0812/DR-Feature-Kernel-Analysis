@@ -1,0 +1,25 @@
+scenario,step,state,probability
+Empirical,1,No/minimal/mild DR,0.2397590361445783
+Empirical,1,Moderate NPDR,0.5024096385542168
+Empirical,1,Moderately severe/severe NPDR,0.23734939759036144
+Empirical,1,PDR,0.020481927710843374
+Empirical,2,No/minimal/mild DR,0.29551060144574226
+Empirical,2,Moderate NPDR,0.38907177970574824
+Empirical,2,Moderately severe/severe NPDR,0.2757816007549323
+Empirical,2,PDR,0.039636018093577155
+Empirical,4,No/minimal/mild DR,0.31083798767559456
+Empirical,4,Moderate NPDR,0.35493428159392293
+Empirical,4,Moderately severe/severe NPDR,0.28203554795547414
+Empirical,4,PDR,0.05219218277500834
+Higher progression (hypothetical),1,No/minimal/mild DR,0.2397590361445783
+Higher progression (hypothetical),1,Moderate NPDR,0.40240963855421685
+Higher progression (hypothetical),1,Moderately severe/severe NPDR,0.3373493975903614
+Higher progression (hypothetical),1,PDR,0.020481927710843374
+Higher progression (hypothetical),2,No/minimal/mild DR,0.25427412268397986
+Higher progression (hypothetical),2,Moderate NPDR,0.35147086509841385
+Higher progression (hypothetical),2,Moderately severe/severe NPDR,0.3153410062601649
+Higher progression (hypothetical),2,PDR,0.07891400595744137
+Higher progression (hypothetical),4,No/minimal/mild DR,0.24580462413367649
+Higher progression (hypothetical),4,Moderate NPDR,0.3381041188694059
+Higher progression (hypothetical),4,Moderately severe/severe NPDR,0.31227996904971345
+Higher progression (hypothetical),4,PDR,0.10381128794720418

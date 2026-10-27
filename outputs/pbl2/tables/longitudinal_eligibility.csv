@@ -1,0 +1,2 @@
+raw_severity_rows,canonical_annual_rows_including_ungradable,ungradable_rows_excluded,valid_graded_visits,unique_patients,unique_patient_eyes,sequences_at_least_2,sequences_at_least_3,sequences_at_least_4,complete_5_visit_sequences,unmatched_grade_visit_rows,missing_dates_in_canonical_grades,canonical_template
+11628,3280,124,3156,388,772,697,640,585,462,0,0,UWF_with_Mask

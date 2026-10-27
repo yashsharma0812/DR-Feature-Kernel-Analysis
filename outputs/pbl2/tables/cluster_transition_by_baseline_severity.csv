@@ -1,0 +1,25 @@
+cluster,baseline_severity_state,change,n_transitions,proportion_within_cluster_and_baseline_state
+0,Moderate NPDR,Progression,94,0.23267326732673269
+0,Moderate NPDR,Regression,116,0.2871287128712871
+0,Moderate NPDR,Stable,194,0.4801980198019802
+0,Moderately severe/severe NPDR,Progression,42,0.1423728813559322
+0,Moderately severe/severe NPDR,Regression,76,0.2576271186440678
+0,Moderately severe/severe NPDR,Stable,177,0.6
+0,No/minimal/mild DR,Progression,92,0.2154566744730679
+0,No/minimal/mild DR,Regression,50,0.117096018735363
+0,No/minimal/mild DR,Stable,285,0.667447306791569
+0,PDR,Progression,6,0.16216216216216217
+0,PDR,Regression,17,0.4594594594594595
+0,PDR,Stable,14,0.3783783783783784
+1,Moderate NPDR,Progression,113,0.2539325842696629
+1,Moderate NPDR,Regression,91,0.20449438202247192
+1,Moderate NPDR,Stable,241,0.5415730337078651
+1,Moderately severe/severe NPDR,Progression,77,0.19896640826873385
+1,Moderately severe/severe NPDR,Regression,104,0.268733850129199
+1,Moderately severe/severe NPDR,Stable,206,0.5322997416020672
+1,No/minimal/mild DR,Progression,91,0.28888888888888886
+1,No/minimal/mild DR,Regression,40,0.12698412698412698
+1,No/minimal/mild DR,Stable,184,0.5841269841269842
+1,PDR,Progression,2,0.06896551724137931
+1,PDR,Regression,12,0.41379310344827586
+1,PDR,Stable,15,0.5172413793103449

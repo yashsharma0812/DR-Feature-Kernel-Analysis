@@ -1,0 +1,12 @@
+feature,role,reason
+age,clustering_input,Baseline numerical measurement; no future information
+diabetes_duration,clustering_input,Baseline numerical measurement; no future information
+bmi,clustering_input,Baseline numerical measurement; no future information
+systolic_bp,clustering_input,Baseline numerical measurement; no future information
+diastolic_bp,clustering_input,Baseline numerical measurement; no future information
+hba1c,clustering_input,Baseline numerical measurement; no future information
+visual_acuity_letters,clustering_input,Baseline numerical measurement; no future information
+oct_central_thickness,clustering_input,Baseline numerical measurement; no future information
+original_dr_grade/dro,interpretation_only,Excluded from inputs to avoid outcome-driven clusters
+creatinine/eGFR/urine,excluded,Substantially lower baseline availability
+identifiers/dates,linkage_only,Not phenotype variables

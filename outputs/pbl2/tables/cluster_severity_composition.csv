@@ -1,0 +1,33 @@
+cluster,severity_state,proportion,method
+0,Moderate NPDR,0.3532608695652174,K-Means
+1,Moderate NPDR,0.36363636363636365,K-Means
+0,Moderately severe/severe NPDR,0.26358695652173914,K-Means
+1,Moderately severe/severe NPDR,0.3315508021390374,K-Means
+0,No/minimal/mild DR,0.34782608695652173,K-Means
+1,No/minimal/mild DR,0.27807486631016043,K-Means
+0,PDR,0.035326086956521736,K-Means
+1,PDR,0.026737967914438502,K-Means
+0,Moderate NPDR,0.3829787234042553,Agglomerative
+1,Moderate NPDR,0.2967032967032967,Agglomerative
+2,Moderate NPDR,0.34513274336283184,Agglomerative
+3,Moderate NPDR,0.40625,Agglomerative
+4,Moderate NPDR,0.3217391304347826,Agglomerative
+5,Moderate NPDR,0.3695652173913043,Agglomerative
+0,Moderately severe/severe NPDR,0.28936170212765955,Agglomerative
+1,Moderately severe/severe NPDR,0.31868131868131866,Agglomerative
+2,Moderately severe/severe NPDR,0.3185840707964602,Agglomerative
+3,Moderately severe/severe NPDR,0.34375,Agglomerative
+4,Moderately severe/severe NPDR,0.24347826086956523,Agglomerative
+5,Moderately severe/severe NPDR,0.29347826086956524,Agglomerative
+0,No/minimal/mild DR,0.3021276595744681,Agglomerative
+1,No/minimal/mild DR,0.3516483516483517,Agglomerative
+2,No/minimal/mild DR,0.3008849557522124,Agglomerative
+3,No/minimal/mild DR,0.21875,Agglomerative
+4,No/minimal/mild DR,0.4260869565217391,Agglomerative
+5,No/minimal/mild DR,0.2717391304347826,Agglomerative
+0,PDR,0.02553191489361702,Agglomerative
+1,PDR,0.03296703296703297,Agglomerative
+2,PDR,0.035398230088495575,Agglomerative
+3,PDR,0.03125,Agglomerative
+4,PDR,0.008695652173913044,Agglomerative
+5,PDR,0.06521739130434782,Agglomerative
