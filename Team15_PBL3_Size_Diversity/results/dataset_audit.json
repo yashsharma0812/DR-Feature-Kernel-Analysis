@@ -1,0 +1,15 @@
+{
+  "observations": 1151,
+  "predictors": 18,
+  "total_columns": 19,
+  "missing_cells": 0,
+  "duplicate_rows": 5,
+  "conflicting_duplicate_predictor_groups": 0,
+  "class_0": 540,
+  "class_1": 611,
+  "train_rows": 920,
+  "test_rows": 231,
+  "train_class_1_rate": 0.5304347826086957,
+  "test_class_1_rate": 0.5324675324675324,
+  "sha256": "f5b98c78ff4c82dfe1d48a0a1ea2724ec5c3f4ade7cfe3d3c44569daada7086c"
+}

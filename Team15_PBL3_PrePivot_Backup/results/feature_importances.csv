@@ -1,0 +1,55 @@
+model,feature,importance
+Bagging,quality,3.828914821006759e-05
+Bagging,pre_screening,0.006628187808168093
+Bagging,ma1,0.14682779560315498
+Bagging,ma2,0.027350834624819603
+Bagging,ma3,0.0260835145790265
+Bagging,ma4,0.03181888133885785
+Bagging,ma5,0.04344673019640702
+Bagging,ma6,0.05658672907564988
+Bagging,exudate1,0.10498955196854762
+Bagging,exudate2,0.07718242753116929
+Bagging,exudate3,0.08418215239891272
+Bagging,exudate5,0.050015134920131224
+Bagging,exudate6,0.031195943653566552
+Bagging,exudate7,0.1027190372589271
+Bagging,exudate8,0.020154960349087588
+Bagging,macula_opticdisc_distance,0.0889657247698986
+Bagging,opticdisc_diameter,0.09430942264563827
+Bagging,am_fm_classification,0.007504682129827168
+Gradient Boosting,quality,0.003958095375390151
+Gradient Boosting,pre_screening,0.008077265632274299
+Gradient Boosting,ma1,0.2072534235935524
+Gradient Boosting,ma2,0.014588693197974536
+Gradient Boosting,ma3,0.031138991204433364
+Gradient Boosting,ma4,0.03728433339589337
+Gradient Boosting,ma5,0.060861339410895325
+Gradient Boosting,ma6,0.08449095709973511
+Gradient Boosting,exudate1,0.10810960727816013
+Gradient Boosting,exudate2,0.06498659487079579
+Gradient Boosting,exudate3,0.05003825193613664
+Gradient Boosting,exudate5,0.029071397418784416
+Gradient Boosting,exudate6,0.03185902013066477
+Gradient Boosting,exudate7,0.111475743213005
+Gradient Boosting,exudate8,0.006002023651520494
+Gradient Boosting,macula_opticdisc_distance,0.081834421179162
+Gradient Boosting,opticdisc_diameter,0.06750297399768715
+Gradient Boosting,am_fm_classification,0.0014668674139348913
+Random Forest,quality,0.0008244689551592172
+Random Forest,pre_screening,0.008576902611878469
+Random Forest,ma1,0.08907303081607539
+Random Forest,ma2,0.06841122754940415
+Random Forest,ma3,0.05851597394665545
+Random Forest,ma4,0.05389237389068809
+Random Forest,ma5,0.05754238301992691
+Random Forest,ma6,0.060402759580694895
+Random Forest,exudate1,0.09173225628384192
+Random Forest,exudate2,0.08047502333626216
+Random Forest,exudate3,0.06941438957618092
+Random Forest,exudate5,0.059187502696721635
+Random Forest,exudate6,0.04505509280060896
+Random Forest,exudate7,0.058277842523074
+Random Forest,exudate8,0.042970969664425505
+Random Forest,macula_opticdisc_distance,0.07356728351907792
+Random Forest,opticdisc_diameter,0.07293428637670465
+Random Forest,am_fm_classification,0.009146232852619878

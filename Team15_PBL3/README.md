@@ -13,9 +13,12 @@ python run_analysis.py
 python -m unittest tests/test_pbl3.py
 python build_notebook.py
 jupyter execute --inplace notebooks/Team15_PBL3_Ensemble_Comparison.ipynb
+python build_presentation.py
 ```
 
 All three models use the same duplicate-safe stratified holdout and identical training-only cross-validation folds. Results are written to `results/`; 300-DPI plots are separated into `figures/eda/` and `figures/model_comparison/`.
+
+The enhanced 12-slide deck is written to `presentation/Team15_PBL3_Enhanced_Presentation.pptx`. It embeds the verified notebook figures and includes clickable GitHub/Colab links plus a Colab QR code.
 
 ## Research integrity
 

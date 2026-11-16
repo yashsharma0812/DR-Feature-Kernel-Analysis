@@ -1,0 +1,88 @@
+{
+  "official_title": "Investigating the Effect of Ensemble Size and Model Diversity on Predictive Performance",
+  "random_state": 42,
+  "selected_non_size_parameters": {
+    "Bagging": {
+      "max_depth": null,
+      "min_samples_leaf": 3,
+      "max_samples": 0.8
+    },
+    "Gradient Boosting": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "subsample": 0.8
+    },
+    "Random Forest": {
+      "max_depth": null,
+      "max_features": "sqrt",
+      "min_samples_leaf": 3
+    }
+  },
+  "final_configurations": {
+    "Bagging": {
+      "size": 25,
+      "params": {
+        "max_depth": null,
+        "min_samples_leaf": 3,
+        "max_samples": 0.8
+      },
+      "diversity": "full features"
+    },
+    "Gradient Boosting": {
+      "size": 200,
+      "params": {
+        "learning_rate": 0.1,
+        "max_depth": 2,
+        "subsample": 0.8
+      },
+      "diversity": "sequential additive learners"
+    },
+    "Random Forest": {
+      "size": 300,
+      "params": {
+        "max_depth": 12,
+        "min_samples_leaf": 3,
+        "max_samples": 0.8,
+        "max_features": 6
+      },
+      "diversity": "max_features=6"
+    }
+  },
+  "size_seeds": [
+    42,
+    52,
+    62
+  ],
+  "size_folds_per_seed": 5,
+  "ensemble_sizes": [
+    1,
+    5,
+    10,
+    25,
+    50,
+    100,
+    200,
+    300
+  ],
+  "interaction_sizes": [
+    10,
+    25,
+    50,
+    100,
+    200,
+    300
+  ],
+  "feature_subsets": [
+    1,
+    3,
+    6,
+    9,
+    18
+  ],
+  "versions": {
+    "python": "3.13.7",
+    "pandas": "2.3.3",
+    "numpy": "2.5.4",
+    "scikit_learn": "1.9.1"
+  }
+}

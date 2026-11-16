@@ -1,0 +1,3 @@
+partition,observations,class_0,class_1
+Training,920,432,488
+Held-out test,231,108,123
