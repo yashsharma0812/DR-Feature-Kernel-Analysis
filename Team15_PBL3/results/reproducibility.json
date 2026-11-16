@@ -1,0 +1,12 @@
+{
+  "python": "3.13.7",
+  "pandas": "2.3.3",
+  "numpy": "2.5.4",
+  "scikit_learn": "1.9.1",
+  "random_state": 42,
+  "model_search_candidates_each": {
+    "Bagging": 24,
+    "Gradient Boosting": 24,
+    "Random Forest": 24
+  }
+}

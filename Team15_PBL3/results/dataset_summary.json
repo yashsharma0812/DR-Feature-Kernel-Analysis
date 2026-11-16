@@ -1,0 +1,14 @@
+{
+  "source": "UCI Diabetic Retinopathy Debrecen data set",
+  "source_url": "https://archive.ics.uci.edu/dataset/329/diabetic+retinopathy+debrecen",
+  "access_date": "2026-11-16",
+  "observations": 1151,
+  "predictors": 18,
+  "total_columns": 19,
+  "missing_cells": 0,
+  "duplicate_rows": 5,
+  "class_0": 540,
+  "class_1": 611,
+  "class_ratio_positive_to_negative": 1.1314814814814815,
+  "sha256": "f5b98c78ff4c82dfe1d48a0a1ea2724ec5c3f4ade7cfe3d3c44569daada7086c"
+}
